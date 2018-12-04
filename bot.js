@@ -34,7 +34,7 @@ client.on('message', message => {
 client.on('message', message => { if (message.content.startsWith("!say")) { message.delete(1000);  message.channel.send(message.content.slice(4, message.content.length)); } 
 });
 
-client.on('message', message => { if (message.toLowerCase().startsWith("fuck")) { message.delete(1000);  message.reply('Language you prick'); }
+client.on('message', message => { if (message.toLowerCase().includes("fuck")) { message.delete(1000);  message.reply('Language you prick'); }
  });
 
 client.login(process.env.BOT_TOKEN);
