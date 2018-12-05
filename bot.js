@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.user.setActivity('Text')
 
 client.on('ready', () => {
     console.log('I am ready!');
