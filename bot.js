@@ -18,8 +18,7 @@ client.on('message', message => {
     	get ping() {
     return this.pings.reduce((prev, p) => prev + p, 0) / this.pings.length;
   }
- 
-  	}
+  	
 });
 
  client.on('message', message => {
