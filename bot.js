@@ -4,7 +4,7 @@ const client = new Discord.Client();
 // Console log and activity when bot is online
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
-  bot.user.setActivity(`(A game)`, { type: "PLAYING" });
+  bot.user.setActivity(`A game`, { type: "PLAYING" });
 
 });
  
