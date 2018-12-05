@@ -117,6 +117,6 @@ client.on('message', message => { if (message.content.includes("Nigga")) { messa
 client.on('message', message => { if (message.content.includes("Nigger")) { message.delete(1000);  message.reply('Language you imbecile'); }
  });
  
-c
+
 
 client.login(process.env.BOT_TOKEN);
