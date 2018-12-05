@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
+if (message.author.bot) return;
 
 client.on('ready', () => {
     console.log('I am ready!');
