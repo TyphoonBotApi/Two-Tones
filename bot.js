@@ -92,13 +92,6 @@ client.on('message', message => { if (message.content.includes("pussy")) { messa
 client.on('message', message => { if (message.content.includes("Pussy")) { message.delete(1000);  message.reply('Language you imbecile'); }
  });
 
- client.on('message', message => { if (message.content === "ass")) { message.delete(1000);  message.reply('Language you imbecile'); }
- }); 
-
-client.on('message', message => { if (message.content === "Ass")) { message.delete(1000);  message.reply('Language you imbecile'); }
- });
-
-
 client.on('message', message => { if (message.content.includes("retard")) { message.delete(1000);  message.reply('Language you imbecile'); }
  });
 
