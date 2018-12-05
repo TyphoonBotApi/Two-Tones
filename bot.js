@@ -15,7 +15,10 @@ client.on('message', message => {
     
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
+    	get ping() {
+    return this.pings.reduce((prev, p) => prev + p, 0) / this.pings.length;
+  }
+ 
   	}
 });
 
