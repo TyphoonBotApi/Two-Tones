@@ -45,8 +45,6 @@ client.on('message', message => {
   	}
 });
     	
-client.on('message', message => { if (message.content.startsWith("!say")) { message.delete(1000);  message.channel.send(message.content.slice(4, message.content.length)); } 
-});
 
 client.on('message', message => { if (message.content.includes("fuck")) { message.delete(1000);  message.reply('Language you imbecile'); }
  });
