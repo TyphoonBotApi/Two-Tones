@@ -11,7 +11,20 @@ client.on('message', message => {
   	}
 });
     
+client.on('message', message => {
+   if (message.content.startsWith("why")) {
+      message.delete(1000); //Supposed to delete message
+      message.channel.send('Becuase your mom gay');
+   }
+});
 
+    
+client.on('message', message => {
+   if (message.content.startsWith("Why")) {
+      message.delete(1000); //Supposed to delete message
+      message.channel.send('Becuase your mom gay');
+   }
+});
 
  client.on('message', message => {
     if (message.content === '!staff') {
