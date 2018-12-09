@@ -12,6 +12,13 @@ client.on('message', message => {
 });
     
 client.on('message', message => {
+   if (message.content.includes("idc")) {
+      message.channel.send('You sure you dont care mate?I could ban you then you would care');
+   }
+});
+
+
+client.on('message', message => {
    if (message.content.startsWith("why")) {
       message.channel.send('Becuase your mom gay');
    }
