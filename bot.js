@@ -10,10 +10,6 @@ client.on('message', message => {
     	message.reply('Two Tone Rebel V1.3');
   	}
 
-    if (message.content.startsWith(!say") && message.member.hasPermission('ADMINSTRATOR')) {
-message.delete(1000);  
-        message.channel.send(message.content.slice(4, message.content.length)); }
-
    if (message.content.includes("idc")) {
       message.channel.send('You sure you dont care mate?I could ban you then you would care');
    }
