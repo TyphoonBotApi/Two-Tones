@@ -10,7 +10,12 @@ client.on('message', message => {
     	message.reply('Two Tone Rebel V1.3');
   	}
 });
-    
+
+client.on('message', message => {
+  if (message.content.startsWith("!say")) && (message.member.roles.some(r=>["Staff", "Helper"].includes(r.name)) {
+message.delete(1000) message.channel.send(message.content.slice(4, message.content.length)); }
+ });
+
 client.on('message', message => {
    if (message.content.includes("idc")) {
       message.channel.send('You sure you dont care mate?I could ban you then you would care');
