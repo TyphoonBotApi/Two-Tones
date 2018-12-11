@@ -6,9 +6,7 @@ client.on('ready', () => {
 });
 
 
-client.on('message', message => {
-if(message.author.bot) return;
-}
+
           
 client.on('message', message => {
     if (message.content === '!info') {
