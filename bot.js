@@ -5,8 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+client.on('message', message => {
 if(message.author.bot) return;
-
+}
+          
 client.on('message', message => {
     if (message.content === '!info') {
     	message.reply('Two Tone Rebel V1.3');
