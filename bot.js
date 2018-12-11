@@ -4,7 +4,9 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 });
- 
+
+if(message.author.bot) return;
+
 client.on('message', message => {
     if (message.content === '!info') {
     	message.reply('Two Tone Rebel V1.3');
