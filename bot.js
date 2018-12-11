@@ -5,11 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if message.member.hasPermission('ADMINSTRATOR')) {
-message.delete(1000); 
-        message.channel.send(message.content.slice(4, message.content.length)); }
-          });
 
 client.on('message', message => {
 if(message.author.bot) return;
