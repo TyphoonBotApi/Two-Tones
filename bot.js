@@ -28,7 +28,7 @@ client.on('message', message => {
     
 
    if (message.content.startsWith("Why")) {
-      message.channel.send('Becuase your mom gay');
+      message.channel.send('Because your mom gay');
    }
 
 
