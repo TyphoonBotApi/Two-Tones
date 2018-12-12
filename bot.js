@@ -15,10 +15,22 @@ client.on('message', message => {
 
    if (message.content.toLowerCase().includes("sub to t series")) {
       message.channel.send('nope not gonna allow that');
+       message.delete(1000);
    }
 
+if (message.content.toLowerCase().includes("sub to tseries")) {
+      message.channel.send('nope not gonna allow that');
+       message.delete(1000);
+   }
 
+if (message.content.toLowerCase().includes("subscribe to t series")) {
+      
+   }
 
+if (message.content.toLowerCase().includes("subscribe to tseries")) {
+      message.channel.send('nope not gonna allow that');
+       message.delete(1000);
+   }
 
 
    if (message.content.startsWith("why")) {
