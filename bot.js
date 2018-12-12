@@ -13,9 +13,10 @@ client.on('message', message => {
     	message.reply('Two Tone Rebel V1.3');
   	}
 
-   if (message.content.includes("idc")) {
-      message.channel.send('You sure you dont care mate?I could ban you then you would care');
+   if (message.content.toLowerCase().includes("sub to t series")) {
+      message.channel.send('nope not gonna allow that');
    }
+
 
 
 
