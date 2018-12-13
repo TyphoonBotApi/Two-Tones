@@ -13,13 +13,18 @@ client.on('message', message => {
     	message.reply('Two Tone Rebel V1.3');
   	}
 
-   if (message.content.toLowerCase().includes("sub to t series")) {
-      message.channel.send('nope not gonna allow that');
+   if (message.content.toLowerCase().includes("go t series")) {
+      message.channel.send('nope not gonna allow that,pewds for the win');
        message.delete(1000);
    }
-
+  
+    if (message.content.toLowerCase().includes("sub to t series")) {
+      message.channel.send('nope not gonna allow that,pewds for the win');
+       message.delete(1000);
+   }
+    
 if (message.content.toLowerCase().includes("sub to tseries")) {
-      message.channel.send('nope not gonna allow that');
+      message.channel.send('nope not gonna allow that,pewds for the win');
        message.delete(1000);
    }
 
@@ -28,7 +33,7 @@ if (message.content.toLowerCase().includes("subscribe to t series")) {
    }
 
 if (message.content.toLowerCase().includes("subscribe to tseries")) {
-      message.channel.send('nope not gonna allow that');
+      message.channel.send('nope not gonna allow that,pewds for the win');
        message.delete(1000);
    }
 
