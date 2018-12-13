@@ -5,7 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-
+if (message.content.toLowerCase().includes("zalgo666420")) {
+      message.channel.send('How do you guys like my new pfp,dont be rude i have feelings');
+       message.delete(1000);
+   }
 
           
 client.on('message', message => {
