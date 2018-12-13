@@ -4,18 +4,18 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('I am ready!');
 });
-
-if (message.content.toLowerCase().includes("zalgo666420")) {
-      message.channel.send('How do you guys like my new pfp,dont be rude i have feelings');
-       message.delete(1000);
-   }
-
           
 client.on('message', message => {
     if (message.content === '!info') {
     	message.reply('Two Tone Rebel V1.3');
   	}
 
+    if (message.content.toLowerCase().includes("zalgo666420")) {
+      message.channel.send('How do you guys like my new pfp,dont be rude i have feelings');
+       message.delete(1000);
+   }
+
+    
    if (message.content.toLowerCase().includes("go t series")) {
       message.channel.send('nope not gonna allow that,pewds for the win');
        message.delete(1000);
