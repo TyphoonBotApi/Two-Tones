@@ -11,7 +11,7 @@ client.on('message', message => {
   	}
 
     if (message.content.toLowerCase().includes("zalgo666420")) {
-      message.channel.send('How do you guys like my new pfp,dont be rude i have feelings');
+      message.channel.send('now my pfp is on the same level as you');
        message.delete(1000);
    }
 
