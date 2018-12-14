@@ -131,7 +131,7 @@ if (message.content.toLowerCase().includes("subscribe to tseries")) {
   if (message.content.includes("nigger")) { message.delete(1000);  message.reply('Language you imbecile'); }
  
 
-
+});
 
 
 client.login(process.env.BOT_TOKEN);
