@@ -7,6 +7,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+    
+    if (message.content === '!embed') {
+    message.channel.send({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}
+    
     if (message.content === '!info') {
     	message.reply('Two Tone Rebel V1.3');
   	}
