@@ -44,16 +44,10 @@ if (message.content.toLowerCase().includes("subscribe to tseries")) {
    }
 
 
-   if (message.content.startsWith("why")) {
-      message.channel.send('Becuase your mom gay');
-   }
 
 
-    
 
-   if (message.content.startsWith("Why")) {
-      message.channel.send('Because your mom gay');
-   }
+
 
 
  
